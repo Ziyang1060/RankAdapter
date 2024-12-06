@@ -1,0 +1,13 @@
+file,dataset_type,dataset_name,ndcg_cut_5,ndcg_cut_10,recall_10,map_10
+run.custom.bi-encoder_bge-base-zh-v1.5_8.DrRank.txt,custom,DrRank,0.5087,0.5444,0.3012,0.1827
+run.custom.bi-encoder_bge-large-zh-v1.5_8.DrRank.txt,custom,DrRank,0.4597,0.4840,0.2974,0.1963
+run.custom.bi-encoder_gte-Qwen2-1.5B-instruct_8.DrRank.txt,custom,DrRank,0.4842,0.5095,0.3154,0.2078
+run.custom.bm25.DrRank.txt,custom,DrRank,0.5233,0.5501,0.2914,0.2427
+run.custom.cross-encoder_bge-reranker-v2-m3_8.DrRank.txt,custom,DrRank,0.6228,0.6270,0.3233,0.2612
+run.custom.cross-encoder_gte-multilingual-reranker-base_8.DrRank.txt,custom,DrRank,0.6873,0.6820,0.3162,0.2650
+run.custom.listwise_Qwen2-7B-Instruct_10_5.DrRank.txt,custom,DrRank,0.6959,0.6517,0.3250,0.2513
+run.custom.listwise_Qwen2-7B-Instruct_10_5_adapter_Qwen2-7B-Instruct_adaptive.DrRank.txt,custom,DrRank,0.6758,0.6411,0.3278,0.2448
+run.custom.pointwise_Qwen2-7B-Instruct_score.DrRank.txt,custom,DrRank,0.4131,0.4288,0.2808,0.1719
+run.custom.pointwise_Qwen2-7B-Instruct_score_adapter_Qwen2-7B-Instruct_adaptive.DrRank.txt,custom,DrRank,0.4514,0.5170,0.3025,0.1793
+run.custom.setwise_Qwen2-7B-Instruct_heapsort_5_10.DrRank.txt,custom,DrRank,0.6377,0.6675,0.3329,0.2339
+run.custom.setwise_Qwen2-7B-Instruct_heapsort_5_10_adapter_Qwen2-7B-Instruct_adaptive.DrRank.txt,custom,DrRank,0.6441,0.6382,0.3165,0.2159
